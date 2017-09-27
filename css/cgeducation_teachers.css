@@ -3,6 +3,7 @@ body{
   background-color: #D3FEFF;
   color: #FF6E6F;
   font-family: 'Poiret One', serif;
+  padding: 50px;
 }
 
 h1, h2, h3 {
@@ -48,10 +49,33 @@ header {
    max-height: 200px;
    border-radius: 50%;
    border: 5px solid #B54AE8;
+   float: right;
  }
 
  .boxes {
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
    flex-direction: row;
+   padding: 30px;
+ }
+
+ .art, .compsci, .english, .music, .philosophy{
+   width: 200px;
+   height: auto;
+   margin: 40px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+   border: 2px solid #000;
+ }
+
+ #teachname #subject{
+   float: left;
+ }
+
+ .coursename{
+   display: inline-flex;
+   float: left;
+   border-top: 2px solid #000;
  }
