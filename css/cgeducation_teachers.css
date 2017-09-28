@@ -1,5 +1,5 @@
 body{
-  width: 100%;
+  width: auto;
   background-color: #D3FEFF;
   color: #FF6E6F;
   font-family: 'Poiret One', serif;
@@ -74,8 +74,14 @@ header {
    float: left;
  }
 
- .coursename{
+ #coursename{
    display: inline-flex;
    float: left;
+   border-top: 2px solid #000;
+ }
+
+ #rating{
+   display: inline-flex;
+   float: right;
    border-top: 2px solid #000;
  }
