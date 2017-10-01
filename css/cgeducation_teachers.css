@@ -4,6 +4,7 @@ body{
   color: #FF6E6F;
   font-family: 'Poiret One', serif;
   padding: 50px;
+  font-weight: bold;
 }
 
 h1, h2, h3 {
@@ -61,35 +62,39 @@ header {
  }
 
  .art, .compsci, .english, .music, .philosophy{
-   width: 200px;
+   width: 35%;
    height: auto;
    margin: 40px;
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-top: 30px;
    border: 2px solid #000;
  }
 
- .top{
+ .top, .bottom{
    display: flex;
  }
 
  .image{
    float: right;
+   padding: 5px;
  }
 
  .namecourse{
    float: left;
+   padding: 5px;
  }
 
- #coursename{
+ .coursename{
    display: inline-flex;
    float: left;
    border-top: 2px solid #000;
+   padding-right: 10px;
+   border-right: 2px solid #000;
+   flex-direction: column;
  }
 
- #rating{
+ .rating{
    display: inline-flex;
    float: right;
    border-top: 2px solid #000;
+   padding-left: 10px;
+   flex-direction: column;
  }
