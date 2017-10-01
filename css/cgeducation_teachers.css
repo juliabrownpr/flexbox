@@ -11,6 +11,7 @@ h1, h2, h3 {
   font-family: 'Permanent Marker', serif;
   font-weight: bold;
   color: #B54AE8;
+  border: 0;
 }
 
 h1{
@@ -46,8 +47,8 @@ header {
 }
 
  img {
-   max-width: 200px;
-   max-height: 200px;
+   max-width: 150px;
+   max-height: 150px;
    border-radius: 50%;
    border: 5px solid #B54AE8;
    float: right;
@@ -62,7 +63,7 @@ header {
  }
 
  .art, .compsci, .english, .music, .philosophy{
-   width: 35%;
+   width: auto;
    margin: 40px;
    border: 2px solid #000;
  }
@@ -74,6 +75,7 @@ header {
  .image{
    float: right;
    padding: 5px;
+   margin: auto;
  }
 
  .namecourse{
@@ -88,6 +90,7 @@ header {
    padding-right: 10px;
    border-right: 2px solid #000;
    flex-direction: column;
+   padding-left: 10px;
  }
 
  .rating{
@@ -96,4 +99,5 @@ header {
    border-top: 2px solid #000;
    padding-left: 10px;
    flex-direction: column;
+   padding-right: 10px;
  }
