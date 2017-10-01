@@ -70,7 +70,15 @@ header {
    border: 2px solid #000;
  }
 
- #teachname #subject{
+ .top{
+   display: flex;
+ }
+
+ .image{
+   float: right;
+ }
+
+ .namecourse{
    float: left;
  }
 
