@@ -15,11 +15,11 @@ h1, h2, h3 {
 }
 
 h1{
-  font-size: 55px;
+  font-size: 35px;
 }
 
 h2{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 h3{
@@ -59,17 +59,18 @@ header {
    justify-content: center;
    flex-wrap: wrap;
    flex-direction: row;
-   padding: 30px;
  }
 
  .art, .compsci, .english, .music, .philosophy{
-   width: auto;
+   width: 40%;
    margin: 40px;
    border: 2px solid #000;
+   height: 100%;
  }
 
  .top, .bottom{
    display: flex;
+   align-items: stretch;
  }
 
  .image{
@@ -80,7 +81,7 @@ header {
 
  .namecourse{
    float: left;
-   padding: 5px;
+   padding-right: 10px;
  }
 
  .coursename{
