@@ -1,2 +1,84 @@
 body{
+  background-color: #D3FEFF;
+  color: #FF6E6F;
+  font-family: 'Poiret One', serif;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', serif;
+  font-weight: bold;
+  color: #B54AE8;
+  border: 0;
+}
+
+h1{
+  font-size: 35px;
+  margin: 0;
+}
+
+h2{
+  font-size: 30px;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+  border-right: 3px solid #000;
+  padding-right: 5px;
+}
+
+nav li:nth-last-child(1){
+  border-right: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  border-bottom: 3px solid #000;
+  margin-bottom: 25px;
+}
+
+img{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  border: 5px solid #B54AE8;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.compsci, .music, .philosophy{
+  margin: 40px;
+  border: 2px solid #000;
+  height: 100%;
+}
+
+.top {
+  border-bottom: 2px solid #000;
+}
+
+.bottom {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  line-height: 200%;
+  padding: 10px;
 }
