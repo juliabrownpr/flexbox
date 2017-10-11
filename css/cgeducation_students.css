@@ -61,6 +61,7 @@ img{
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: stretch;
 }
 
 .compsci, .music, .philosophy{
