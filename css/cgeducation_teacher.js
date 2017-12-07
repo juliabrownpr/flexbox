@@ -18,3 +18,17 @@ console.log(avg);
 
 avg = Math.round(avg * 100) / 100;
 console.log(avg);
+
+function getAvgRating (rating){
+  var sum = 0;
+  for (var i=0; i<rating.length; i++){
+    sum += rating[i];
+  }
+  var avg = sum / rating.length;
+  avg = Math.round(avg * 100) / 100;
+  return avg;
+}
+
+function addTeacherRating (rating, newRating) {
+  
+}
