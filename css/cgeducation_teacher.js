@@ -34,8 +34,12 @@ function addTeacherRating (rating, newRating) {
   return rating;
 }
 
-var newRating = prompt("We would like for you to review our teacher. Please enter a rating between 0.0 and 5.0?"){
-  if (newRating >=0 && <=5){
-    
+var newRating = prompt("We would like for you to review our teacher. Please enter a rating between 0.0 and 5.0?") {
+  if (newRating <0 && >5){
+    prompt("We would like for you to review our teacher. Please enter a rating between 0.0 and 5.0?");
+  }
+  else(newRating >=0 && <=5){
+    addTeacherRating;
+    alert("Thanks for your review! " + teacherName + "average rating is now " + getAvgRating + ".");
   }
 }
